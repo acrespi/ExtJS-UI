@@ -1,0 +1,61 @@
+body .x-panel {
+
+}
+.icon-grid {
+    background-image:url(../images/grid.png) !important;
+}
+#button-grid .x-panel-body {
+    border:1px solid #99bbe8;
+    border-top:0 none;
+}
+.add {
+    background-image:url(../images/add.gif) !important;
+}
+.add-left {
+    background-image:url(../images/leftarrow.png) !important;
+}
+.add-right {
+    background-image:url(../images/rightarrow.png) !important;
+}
+.add-disabled-right {
+    background-image:url(../images/norightarrow.png) !important;
+}
+
+.remove {
+    background-image:url(../images/delete.gif) !important;
+}
+
+.remove-blue {
+    background-image:url(../public/images/blue_cross.png) !important;
+}
+
+.command {
+    background-image:url(../images/application_osx_terminal.png) !important;
+}
+
+.product {
+    background-image:url(../images/printer.png) !important;
+}
+
+.target {
+    background-image:url(../images/server.png) !important;
+}
+
+.save {
+    background-image:url(../images/page_save.png) !important;
+}
+
+.clock {
+    background-image:url(../images/clock.png) !important;
+}
+
+.disabled {
+    display:none !important;
+}
+
+.enabled {
+    display:block !important;
+}
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+  white-space: normal; /* changed from nowrap */
+}

@@ -1,0 +1,1 @@
+This is an example of a user interface made with ExtJS that uses JSON and communication with servlets. It interacts with an app core made in ruby to retrieve/store data, unfortunately the core app itself is not publicly available.

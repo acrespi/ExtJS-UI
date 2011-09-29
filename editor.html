@@ -1,0 +1,57 @@
+<!-- Do NOT put any DOCTYPE here unless you want problems in IEs. -->
+<html>
+
+    <!-- Each valid html page must have a head; let's create one. -->
+    <head>
+        <!-- The following line defines content type and utf-8 as character set. -->
+        <!-- If you want your application to work flawlessly with various local -->
+        <!-- characters, just make ALL strings, on the page, json and database utf-8. -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <!-- Ext relies on its default css so include it here. -->
+        <!-- This must come BEFORE javascript includes! -->
+        <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css">
+        <link rel="stylesheet" type="text/css" href="public/stylesheets/custom_ext_styles.css">
+
+        <!-- Include here your own css files if you have them. -->
+
+        <!-- First of javascript includes must be an adapter... -->
+        <script type="text/javascript" src="ext/adapter/ext/ext-base.js"></script>
+
+        <!-- ...then you need the Ext itself, either debug or production version. -->
+        <script type="text/javascript" src="ext/ext-all-debug.js"></script>
+
+        <!-- ...json functions from www.json.com/json.js -->
+        <script type="text/javascript" src="public/javascripts/json.js"></script>
+
+<!--        <script type="text/javascript" src="ext/examples/ux/CheckColumn.js"></script>-->
+        <script type="text/javascript" src="public/javascripts/CheckColumn.js"></script>
+        <script type="text/javascript" src="public/javascripts/CheckColumnExtension.js"></script>
+
+
+        <!-- Include here your extended classes if you have some. -->
+
+        <!-- Include here you application javascript file if you have it. -->
+
+        <!-- Set a title for the page (id is not necessary). -->
+        <title id="page-title"> XXXX Suite Editor</title>
+
+
+
+        <!-- You can have onReady function here or in your application file. -->
+        <!-- If you have it in your application file delete the whole -->
+        <!-- following script tag as we must have only one onReady. -->
+        <script type="text/javascript" src="suite_utils.js"></script>
+        <script type="text/javascript" src="suite_panel.js"></script>
+        <script type="text/javascript" src="editor.js"></script>
+
+        <!-- Close the head -->
+    </head>
+
+    <!-- You can leave the body empty in many cases, or you write your content in it. -->
+    <body>
+        <div id="tree-div"></div>
+    </body>
+
+    <!-- Close html tag at last -->
+</html>
